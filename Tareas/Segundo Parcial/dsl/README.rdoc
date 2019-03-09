@@ -1,0 +1,28 @@
+= Domain-Specific Language Pattern
+
+
+This documentation was created as part of a programming 
+activity for the <em>Software Design and Architecture</em> 
+course (_TC3049_), at the Tecnológico de Monterrey, Campus 
+Estado de México.
+
+== Overview
+
+The <b>Domain-Specific Language Pattern</b> suggests that you should 
+focus on the language itself, not on the interpreter. It says that 
+sometimes you can make problems easier to solve by giving the user a 
+convenient syntax for expressing the problem in the first place.
+
+The UML diagram for this programming activity is as follows:
+
+rdoc-image:img/dsl_uml.png
+
+To test the program, inside the +src+ folder type the following 
+instruction at the command line:
+
+    ruby -I . -w jankenpon_test.rb
+
+== References
+
+- \R. Olsen. <em>Design Patterns in Ruby.</em> Addison-Wesley,
+2007.

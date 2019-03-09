@@ -1,0 +1,8 @@
+{
+    "scores": {
+        "lambda": {
+            "httpMethod": "POST",
+            "body": "{\"initials\": \"ALV\", \"score\": 4}"
+        }
+    }
+}

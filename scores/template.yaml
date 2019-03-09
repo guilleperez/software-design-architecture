@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  scores:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Description: An example of creating a simple microservice for the quiz application.
+      Handler: lambda_function.lambda_handler
+      MemorySize: 128
+      Role: 'arn:aws:iam::847648960344:role/service-role/scores_role'
+      Runtime: python3.6
+      Timeout: 3
